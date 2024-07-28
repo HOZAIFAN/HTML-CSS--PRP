@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYPERLINKS
+    </title>
+    <style>
+ #hp {
+
+    text-align: center;
+   font-size: 30px;
+    height: 30%px;
+    background-color:black ;
+    margin: 10px;
+ }
+
+    a {
+        color:white ;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color:red ;
+    }
+    a:active {
+        color:pink;
+
+    }
+    
+
+    
+  #go {
+    position: relative;
+  left: 0%;
+  right:0%;
+  object-fit: cover;
+  width: 100%;
+  height:auto;
+  max-height:20%;}
+
+  #JP { border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(127 5 5);
+    font-size: 55PX;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+  }
+  #wow {
+    border : 8px solid black;
+    background-color: aquamarine;
+    text-align: center;
+    float: left ;
+    font-size: 25px;
+    margin: 1px;
+    width: 600px;
+    padding:2%;
+  
+    }
+
+   #jao { width: 200px; 
+    border: solid rgb(216, 33, 33);
+background-color: solid rgb(211, 84, 84);
+margin:2%;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 50px;  }
+#ao { background-color: solid brown;
+ 
+
+}
+  
+ 
+        </style>
+</head>
+
+<body id="nah">
+ 
+   <div id="JP"><h2>WELCOME TO JAPI WEB DEVELOPING COURSE &#8465;</h2> </div>
+   
+    <pre id="hp"> <a href="https://www.youtube.com/results?search_query=sourav+joshi+vlogs" target="_blank" >JAPI VLOGS  |  </a><a href="https://translate.google.com/" target="_blank">  NAEEM VLOGS  |  </a><a href="https://chatgpt.com/c/6c48a092-ae37-40c3-9cc1-ec75f8a41247" target="_blank" >  CHAT GPT  |  </a> <a href="https://s11.y2mate.bz/">  VIDMATE  |  </a><a href="https://mail.google.com/mail/u/0/"  target="_blank" >  MY MAILS  |  </a> </pre>
+   <p id="wow"><legend>WHAT IS WEB DEVELOPING?</legend> Web development is a dynamic field that empowers individuals to create interactive and engaging websites and web
+      applications. It encompasses a diverse range of skills, from coding in HTML, CSS, and JavaScript for front-end design, to server-sidscripting and database management for back-end functionality. Through the use of frameworks like React, Angular, or Node.js, developers enhance efficiency and build robust, scalable solutions. Crucial to web development is responsive design, ensuring seamless user experiences across devices. Security measures and performance optimization techniques further bolster the reliability and speed of applications. Continuous learning is key in this rapidly evolving field, where staying updated with trends and technologies like APIs and cloud computing is essential. Ultimately, web development blends creativity with technical expertise, offering professionals opportunities to innovate and contribute to the digital landscape.
+    </p>
+    <div id="jao" ><Pre > TO ENROLL IN THIS COURSE CONFIRM YOUR 
+             IDENTITY FIRST 
+
+     <div id="ao"><pre><a href="google.com>"<button >read more</button></Pre> </div>  <button> click here</button></pre></div> 
+    </Pre> </div>
+

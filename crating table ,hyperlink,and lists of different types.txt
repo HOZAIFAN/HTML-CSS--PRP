@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFESSIONAL </title>
+</head>
+
+<body>
+    <h1>BEAUTIFUL PICTURE</h1><br>
+    <P> These are some links to beautiful pictures </P>
+    <a href="https://google.com" target="_blank"> link to google </a><br>
+    <a href="https://youtube.com" target="_blank"> link to youtube</a><br>
+    <h1> ETHICAL HACKING SKILLS</h1>
+    <ul type="circle">
+        <li>
+            <h2>PASWORD CRACKING</h2>
+        </li>
+        <ol type="I">
+            <li> Instagram password cracking </li>
+            <li> Snap chat password cracking </li>
+            <li> Face book password cracking </li>
+        </ol>
+        <li>
+            <h2>PROGRAMMING LANGUAGE</h2>
+        </li>
+        <ol>
+            <li>python</li>
+            <li>c++</li>
+            <li>c sharp </li>
+        </ol>
+        <li>
+            <h2>GOOD COMUNICATION SKILLS </h2>
+        </li>
+        <ol>
+            <li>Goood in english </li>
+            <li>Goood in arabic </li>
+            <li>Goood in pushto </li>
+        </ol>
+    </ul>
+    <h1> EXPERIENCE OF ETHICAL HACKING </h1>
+    <ol>
+        <li>Worked in issmart group of companies</li>
+        <li>Worked in b4u</li>
+        <li>Worked in linkined in </li>
+
+
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <td> PROGRAMME </td>
+                <td> GRADUATION DEGREE </td>
+                <td> WORK EXPERIENCE </td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> cybersecurity </td>
+                <td> bechelors of compuyer science </td>
+                <td> issmart group of companies (04 yesars) </td>
+            </tr>
+
+            <tr>
+                <td> computewr science </td>
+                <td> mphil of compuyer science </td>
+                <td> b4u group of companies (08 yesars) </td>
+            </tr>
+            <tr>
+                <td> laws and busieniess</td>
+                <td> bechelors of laws  </td>
+                <td> high court of companies (04 yesars) </td>
+            </tr>
+
+
+        </tbody>
+    </table>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEV BAR</title>
+    <style>
+
+   #navgo {
+ background-color: rgb(135, 46, 1);
+ border-radius: 25px;
+    }  
+    #navgo ul{
+        overflow: auto;
+    }
+
+    #navgo li{
+        color: white;
+        float: left;
+        list-style: none;
+        padding: 19px 20px ;
+    }
+    #in {
+        float :right: ;
+        padding: 12px 13px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        color: rgb(238, 255, 6);
+    }
+    a:active {
+        color:aquamarine
+    }
+    .search{
+        float: right;
+        padding: 17px 75px;
+        border-radius: 25px;
+    }
+
+    </style>      
+<body>
+    <header>
+      
+
+       <nav id="navgo">
+            <ul>
+                <li><a href="#" target="_blank">HOME</a></li>
+                <li><a href="#"target="_blank">SERVICES</a></li>
+                <li><a href="#"target="_blank">COURSES  </a></li>
+                <li><a href="#"target="_blank">STUDENTS</a></li>
+                <li><a href="#"target="_blank">ABOUT</a></li>
+                <div class="search">
+                  <input type="text" name="search" id="search" placeholder="SEARCH QUREIES">\
+                  <select >
+                    <option value="#">SELECT BOARD</option>
+                    <option value="psI">PESHAWER BOARD </option>
+                    <option value="psJ">MARDAN BOARD </option>
+                    <option value="ps">LAIYA  BOARD </option>
+                    
+                
+                    
+                  </select>
+                </div> 
+            </ul>
+             </nav>
+
+    </header>
+    
+</body>
+</html>

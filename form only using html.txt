@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Forms</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend><h3>Personal Details</h3></legend>
+        <p>For more detail, visit
+            <a href="https://web.whatsapp.com/" target="_blank">Abdul Basit</a>
+            <a href="https://youtube.com/" target="_blank">M. Hozaifa</a>
+            <a href="https://translate.google.com/" target="_blank">M. Hanan</a>
+        </p>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required placeholder="e.g. Alex"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"  requiredplaceholder="e.g. google@gmail.com" required><br><br>
+
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="pass" required><br><br>
+
+            <label for="work">Name of Worker:</label>
+            <input type="text" name="worker" id="work" placeholder="e.g. John" required><br><br>
+
+            <label for="degr">Name of Degree:</label>
+            <input type="text" name="degree" id="degr" placeholder="e.g. BS or MSC" required><br><br>
+
+            Number of Lines of Code: <input type="range" min="20" max="100" required><br><br>
+
+            <label for="apply">Date of Apply:</label>
+            <input type="date" name="date_apply" id="apply"  required ><br><br>
+
+            Telephone Number: <input type="tel" name="tel" placeholder="e.g. +92340505060" required><br><br>
+
+            Date of Project Completion You Want: <input type="date" name="date_completion" required><br><br>
+
+            Dollar You Will Pay: <input type="number" name="payment" placeholder="e.g. 20" required><br><br>
+
+            URL of Facebook: <input type="url" name="url" placeholder="https://facebook.com/" required><br><br>
+
+            Upload Your CV: <input type="file" name="cv" accept=".pdf" required><br><br>
+
+            Upload Your CV in Image: <input type="file" name="cv_image" accept="image/jpeg" required><br><br>
+
+            Upload Your Interview: <input type="file" name="interview" accept="video/mp4" required><br><br>
+
+            Board of Your Education:
+            <select name="select_board" id="selectboard" required>
+                <option value="select_board" selected>Select Board</option>
+                <option value="federal_board">Federal Board</option>
+                <option value="peshawar_board">Peshawar Board</option>
+                <option value="punjab_board">Punjab Board</option>
+                <option value="sahiwal_board">Sahiwal Board</option>
+                <option value="sargodah_board">Sargodah Board</option>
+                <option value="muree_board">Muree Board</option>
+                <option value="narankaghan_board">Narankaghan Board</option>
+            </select><br><br>
+
+            <label for="car">Car:</label>
+            <select name="car" id="car"  required >
+                <option value="">--CAR--</option>
+                <option value="lamborghini">Lamborghini</option>
+                <option value="swift">Swift</option>
+                <option value="maze">Maze</option>
+                <option value="thar">Thar</option>
+            </select><br><br>
+
+            <div>
+                <h3>Your Occupation</h3>
+            </div>
+            <div>BUSSINESS MAN<input type="RADIO" name="occupation" required ></div>
+            <div>Property Dealer <input type="radio" name="occupation"></div>
+            <div>Government Worker <input type="radio" name="occupation"></div>
+            <div>Student <input type="radio" name="occupation"></div>
+            <div>Jobless <input type="radio" name="occupation"></div>
+            <div>Other <input type="radio" name="occupation"></div>
+
+            <h3>Review About Your Project</h3><br>
+            <textarea name="project_review" cols="150" rows="20"></textarea><br><br>
+
+            Are you sure all information is correct? <input type="checkbox" name="checkbox"><br><br>
+
+            Any question or for more queries: <input type="search" name="search" id="search" placeholder="How can I learn HTML"><br><br>
+
+            <div>
+                <input type="submit" value="Submit Now">
+            </div><br>
+
+            <input type="reset" value="Reset Now"><br>
+        </form>
+    </fieldset>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATING FROMS </title>
+</head>
+
+<body>
+
+    <!-- THESE ARE HYPER LINKS -->
+    <fieldset>
+        <legend>
+            <H3>PERSONAL DETAIL</H3>
+        </legend>
+        <p> FOR MORE DTAIL VISIT <a href="https://web.whatsapp.com/" target="_blank"> ABDUL BASIT</a>
+            <a href="https://youtube.com/" target="_blank">&nbsp;&nbsp;&nbsp;M.HOZAIFA </a>
+            <a href="https://translate.google.com/" target="_blank">&nbsp;&nbsp;&nbsp;M.HANAN</a><BR>
+
+        </p>
+        <forms action="">
+            <!-- LABEL IS USED TO SELECT THE BOX BY CLICKING ON IT NAME-->
+            <label for="name"> NAME: </label>
+            <input type="text" name="MYOCC" id="name" required placeholder="e.g ALEX" required> <br>
+            <br>
+            <label for="email"> EMAIL: </label>
+            <input type="text" name="email" id="email" placeholder="e.g google.gmail.com" required><br>
+            <br>
+            <label for="pass"> PASSWORD: </label>
+            <input type="password" name="PHONEnumber" id="pass" required> <br>
+            <br>
+            <label for="work"> NAME OF WORKER: </label>
+            <input type="text" name="MYOCC" id="work" placeholder="e.g JOHN" required><br>
+            <br>
+            <label for="degr">NAME OF DEGREE:</label>
+            <input type="text" name="MYOCC" id="degr" placeholder="e.g bs or msc" required><br>
+            <BR>
+            NUMBER OF LINES OF CODE:<input type="range" min="20" max="100" required><BR>
+            <BR>
+            <label for="apply">DATE OF APPLY: </label>
+            <input type="date" NAME="DATEOFAPPLY" id="apply"><br>
+            <br>
+            TELEPHONE NUMEBR: <input type="tel" NAME="TEL" placeholder="e.g +92340505060" required><br>
+            <br>
+            <div>DATE OF PROJECT COMPLETION YOU WANT: <input type="date" NAME="DATEOFCOMP" required></div><br>
+            <br>
+            <div>DOLLAR YOU WILL PAY:<INPUT type="number" name="payment" placeholder="e.g 20" required></br></div><br>
+            <br>
+            URL OF FACEBOOK : <input type="url" name="url" placeholder="https://youtube.com/" requiredrequired> <Br>
+            <br>
+            <!--ACCEPT ONLY PDF THE ACCEPT TELL WHAT TYE OF DATA WILL IT ACCEPT-->
+            UPLOAD YOUR CV : <input type="file" name="filr" accept=".pdf" required><br>
+            <br>
+            <!-- ACCEPT ONLY IMAGE OF JPEG FORMAT -->
+            UPLOAD YOUR CV IN IMAGE: <input type="file" name="IMGf" ID="IMGf" accept="image/jpeg" required><br>
+            <br>
+            <!-- ACCEPT ONLY VIDEO  OF MP4 FORMAT -->
+            UPLOAD YOUR INTERVIEW:<input type="file" name="vid" id="vid" accept="video/mp4" required><br>
+            <br>
+            BOARD OF YOUR EDUCATION: <select name="slectboard" id="selectboard" required>
+                <option value="SELECT BOARD" selected>SELECT BOARD</option>
+                <option value="FEDERAL BOARD">FEDERAL BOARD</option>
+                <option value="PESHAWER BOARD">PESHAWER BOARD</option>
+                <option value="PUNJAB BOARD">PUNJAB BOARD</option>
+                <option value="SAHIWAL BOARD">SAHIWAL BOARD</option>
+                <option value="SARGODAH BOARD">SARGODAH BOARD</option>
+                <option value="MUREE BOARD">MUREE BOARD</option>
+                <option value="NARANKAGHAN BOARD">NARANKAGHAN BOARD</option>
+            </select><br>
+            <BR>
+            <!-- HERE WE CAN SELECT OPTION FROM TH GIVEN-->
+            <label for="car" required>CAR</label>
+            <select name="mycar" id="car ">
+                <option value="LAMBORGINI">LAMBORGINI</option>
+                <option value="SWIFT">SWIFT</option>
+                <option value="MAZE">MAZE</option>
+                <option value="THAR">THAR</option>
+            </select><BR>
+            <BR>
+            <DIV>
+                <h3>YOUR OCCUPATION</h3>
+            </DIV>
+            <DIV>BUSIENIESS<input type="radio" NAME="MYOCC"> </DIV>
+            <DIV>PROPERTY DEALER<input type="radio" NAME="MYOCC"></DIV>
+            <DIV>GOVERMENT WORKER <input type="radio" NAME="MYOCC"></DIV>
+            <DIV>STUDNET<input type="radio" NAME="MYOCC"></DIV>
+            <DIV>JOBLESS <input type="radio" NAME="MYOCC"> </DIV>
+            <DIV>OTHER<input type="radio" NAME="MYOCC"> </DIV>
+            <br>
+            <video src="../janam.mp4" width="500" height="300" controls muted autoplay loop poster="go.jpg"> </video>
+            <br>
+            EMBEDED VIDEO
+            <br>
+            
+             <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/2QR11oDukn4?si=j1wBJy20vj1ImOce" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <BR>
+
+            <H3>REVIEW ABOUT YOUR PROJECT</H3><BR><textarea NAME="MYTEXT" cols="150" ROWS="20"></textarea><br>
+            ARE YOU SURE ALL INFORMATION IS CORRECRT <input type="checkbox" NAME="checkbox"></br>
+            <BR>
+            ANY QUESTION OR FOR MORE QUREIES:<input type="search" name="search" id="search"
+                placeholder="HOW CAN I LEARN HTML" ;><BR>
+            <BR>
+
+            <DIV>
+                <input type="submit" value="SUMBIT NOW">
+            </DIV>
+            <BR>
+            <input type="reset" value="RESET NOW"><BR>
+        </forms>
+    </fieldset>
+</body>
+
+</html>
