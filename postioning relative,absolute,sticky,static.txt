@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #previe{
+        width: 2000px;
+        height:70000PX;
+    }
+    .container {
+        border: 2px solid indigo;
+        border-radius: 5px;
+        box-sizing: 2px;
+        text-align: center;
+        margin-top: 2px;
+        word-wrap: break-word;
+        display: inline-block;
+        width: 24%;
+        color: rgb(251, 112, 112);
+        background-color: rgb(174, 255, 0);
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #box3{
+        position: relative;
+        top: 150px;
+        right: 100px;;
+    }
+    #box2{
+     position: sticky;
+      top:3px;
+    }
+    #box1{
+     position: absolute;
+     top: 30px;
+     left:500px;
+   
+
+    }
+    #box4{
+        position: fixed;
+        top: auto;
+        right:100;
+        
+    }
+
+</style>
+
+
+<body>
+    <div id="previe">
+    <div class="container" id="box1">
+        ( BOX1 )Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, veniam?Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Perferendis, repellendus. Nulla totam, doloribus in quam eaque mollitia sit nam corrupti.
+    </div>
+    <div class="container" id="box2">
+        ( BOX2 ) Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, veniam?Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Nobis laboriosam in ratione aliquid, doloremque eum maxime voluptatum provident nam eos.
+    </div>
+    <div class="container" id="box3">
+        ( BOX3 )  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, veniam?Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Reiciendis, amet velit quas culpa rem ipsam hic temporibus officia odio laborum.
+    </div>
+    <div class="container" id="box4">
+        ( BOX4 ) Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, veniam? Lorem ipsum dolor, sit amet consectetur
+        adipisicing elit. Odit hic voluptatem aspernatur, ad error
+        exercitationem laboriosam cum dolores saepe iure.</div></div>
+
+</body>
+
+</html>
