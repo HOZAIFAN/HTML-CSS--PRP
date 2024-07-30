@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #logo {
+       border:2px solid black;
+       margin: auto;
+    }
+    img {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            display: block;
+            margin: auto; }
+
+    h2{
+        text-align: center;
+            margin: 10px 0 0 0;
+            max-width: 100%;
+            word-wrap: break-word; 
+    }
+   
+</style>
+<body>
+    <header id="logo">
+        <img src="ai-generated-8307333_640.webp" alt="lgo">
+        <h2> THIS IS MY SKETCH</h2>
+    </header>
+    
+    
+</body>
+</html>

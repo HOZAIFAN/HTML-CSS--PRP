@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .margin{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        border: 2px solid black;
+        
+        width:32%;
+        display: inline-block;
+        padding: 1px;
+        margin: 10px 0 0 0;
+        box sizing: 100px; 
+        word-wrap: break-word;
+
+    }
+
+    #logo {
+        border: 2px solid black;
+        margin: auto;
+    
+    
+    }
+
+    img {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 10px 0 0 0;
+        max-width: 100%;
+        word-wrap: break-word;
+    }
+</style>
+
+<body>
+    <header id="logo">
+        <img src="ai-generated-8307333_640.webp" alt="lgo">
+        <h2> THIS IS MY SKETCH</h2>
+    </header>
+    <main>
+        <div class="margin">
+        <h3 >THIS IS LOREM</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem consectetur vero eum
+        nam quas, ducimus natus voluptatem at voluptates.
+        </div>
+        <div class="margin">
+            <h3 >THIS IS LOREM</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem consectetur vero eum
+            nam quas, ducimus natus voluptatem at voluptates.
+        </div>
+        <div class="margin">
+            <h3 >THIS IS LOREM</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem consectetur vero eum
+            nam quas, ducimus natus voluptatem at voluptates.
+        </div>
+
+
+
+
+    </main>
+</body>
+
+</html>
