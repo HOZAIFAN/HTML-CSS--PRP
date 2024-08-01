@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h2 {
+        text-align: center;
+    }
+    #FOR{
+        width: 15%;
+        background-color: blue;
+    text-align: center;
+    border: 4px solid rgb(255, 0, 0);
+    color: aliceblue;
+    position: absolute;
+    top: 370px;
+    left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #BOX1 {
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        position: absolute;
+        top: 170px;
+        right: 50px;
+        border: 2px solid red;
+        background-color: rgba(255, 0, 0, 0.7);
+        /* semi-transparent background */
+        word-wrap: break-word;
+        border-radius: 10px;
+        color: azure;
+        width: 25%;
+        padding: 20px;
+        background-color: rgb(93, 0, 255);
+    }
+
+
+    #img {
+
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        margin: 0 0 0 0 px;
+        padding: 0 0 0 0px;
+    }
+
+    #navgo {
+        background-color: rgb(135, 46, 1);
+        border-radius: 25px;
+    }
+
+    #navgo ul {
+        overflow: auto;
+    }
+
+    #navgo li {
+        color: white;
+        float: left;
+        list-style: none;
+        padding: 30px 30px;
+    }
+
+    #in {
+        float: right:;
+        padding: 12px 13px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: rgb(238, 255, 6);
+    }
+
+    a:active {
+        color: aquamarine
+    }
+
+    .search {
+        float: right;
+        padding: 17px 75px;
+        border-radius: 25px;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    nav {
+        margin: 0px;
+        padding: 0px;
+    }
+    a:hover{
+        color: red;
+    }
+   
+    
+
+</style>
+
+<body>
+    <header>
+
+
+        <nav id="navgo">
+            <ul>
+                <li><a href="#" target="_blank">HOME</a></li>
+                <li><a href="#" target="_blank">SERVICES</a></li>
+                <li><a href="#" target="_blank">EXCERSICES </a></li>
+                <li><a href="#" target="_blank">PARTICIPANT</a></li>
+                <li><a href="#" target="_blank">ABOUT</a></li>
+                <li><a href="#" target="_blank">TRANERS</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="SEARCH QUREIES">\
+                    <select>
+                        <option value="#">SELECT BOARD</option>
+                        <option value="psI">PESHAWER BOARD </option>
+                        <option value="psJ">MARDAN BOARD </option>
+                        <option value="ps">LAIYA BOARD </option>
+                    </select>
+                </div>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+
+        <img id="img" src="live.jpeg">
+        <div>
+        <div id="FOR">
+            <div><p><h3> JOIN US NOW</h3></div>
+            <div><a href=""> <h2>ENTER YOUR NAME</h2></a></div>
+            <div><a href=""> <H2>ENTER YOUR CLASS</H2></a></div>
+            <div><a href=""><H2>ENTER YOUR NAME</H2></a></div></p>
+        </div>
+        <div id="BOX1">
+
+            <h2> ULTIMATE FITNESS GYM</h2>
+
+            <p>Welcome to Ultimate Fitness Gym, the premier destination for achieving your health and fitness goals. Our
+                state-of-the-art facility is designed to cater to all fitness levels, from beginners to seasoned
+                athletes. We believe in creating a supportive and motivating environment where everyone can thrive.
+                At Ultimate Fitness Gym, we offer a wide range of equipment to meet your workout needs. Our gym features
+                the latest in cardio machines, strength training equipment, and free weights, ensuring you have
+                everything you need to stay fit and healthy. Whether you're looking to build muscle, lose weight, or
+                improve your overall fitness, we have the tools to help you succeed.</p>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
