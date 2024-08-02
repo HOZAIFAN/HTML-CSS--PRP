@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        background-color: antiquewhite;
+        border: 2px solid red;
+        display: flex;
+        width: 1000px;
+        max height: 500px;
+        align-items: stretch;/*  to center all items of box to center */
+       justify-content:space-evenly;    /* to give space evenly all side of box */
+        flex-wrap: wrap;
+        flex-shrink: 2px; /*to control the width of boxes when the web page is compressed */
+       flex-direction: row; /*to control the directon of flow of boxe */
+   
+
+        
+  }
+  .item{
+     
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 3px;
+    border: 10px solid rgb(255, 106, 0);
+    background-color: aquamarine;
+}
+
+#flexbox1{
+    width:200px ;
+    flex-shrink: 5px;
+    flex-grow: 5px;   /*this is used to control the box size when page is streched */
+    flex-grow: 2;
+
+
+}
+#flexbox2{
+    width:500px ;
+    flex-shrink: 9px;
+    flex-grow: 9px;
+    flex-grow: 1;
+
+
+}
+#flexbox3{
+    width: 300px;
+    flex-shrink: 2px;
+    flex-grow: 2px;
+
+}
+h1{
+    text-align: center;
+}
+
+
+</style><body>
+    <h1 >  THIS IS FLEX BOX PRACTISE</h1>
+ 
+<div class="container">
+  
+
+<body>  <div class="item" id="flexbox1" style="text-align: center ; font-size: 40px;" >
+    THIS IS BOX 1
+</div>
+    <div class="item" id="flexbox2" style="text-align: center ; font-size: 40px;">
+        THIS IS BOX 2
+    </div>
+    <div class="item" id="flexbox3" style="text-align: center ; font-size: 40px;">
+        THIS IS BOX 3
+    </div>
+</div>
+
+
+
+
+
+    
+</body>
+</html>

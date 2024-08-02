@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        font-size: 50px;
+        color: brown;
+        padding: 0%;
+        margin: 0px;
+        
+    }
+    
+   #navgo {
+  
+ background-color: rgb(135, 46, 1);
+ border-radius: 25px;
+ position: absolute;
+ top: 60px;
+ right: 350px;
+ width: 1500px;
+    }  
+
+    #navgo ul{
+        overflow: auto;
+    }
+
+    #navgo li{
+        color: white;
+        float: left;
+        list-style: none;
+        padding: 19px 20px ;
+    }
+    #in {
+        float :right: ;
+        padding: 12px 13px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        color: rgb(238, 255, 6);
+    }
+    a:active {
+        color:aquamarine
+    }
+    .search{
+        float: right;
+        padding: 17px 75px;
+        border-radius: 25px;
+    }
+
+
+.container{
+    display: flex;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-shrink: 2;
+}
+#flexbox1{
+    width: 70px;
+    max-height: 120px;
+    display:inline-flexbox;
+    position: absolute;
+    top: 2%;
+    left: 0px;
+}
+#flexbox3{
+    width: 200px;
+    position: absolute;
+    top: 100px;
+   right:50px;
+}
+</style>
+<body>
+    
+    <h1> THIS IS FLEX BOX PRACTISE</h1>
+    <div class="container" id="flexbox2">
+        <nav id="navgo">
+            <ul>
+                <li><a href="#" target="_blank">HOME</a></li>
+                <li><a href="#"target="_blank">SERVICES</a></li>
+                <li><a href="#"target="_blank">COURSES  </a></li>
+                <li><a href="#"target="_blank">STUDENTS</a></li>
+                <li><a href="#"target="_blank">ABOUT</a></li>
+                <div class="search">
+                  <input type="text" name="search" id="search" placeholder="SEARCH QUREIES">\
+                  <select >
+                    <option value="#">SELECT BOARD</option>
+                    <option value="psI">PESHAWER BOARD </option>
+                    <option value="psJ">MARDAN BOARD </option>
+                    <option value="ps">LAIYA  BOARD </option></select>
+                </div> 
+            </ul>
+             </nav>
+    
+      </div>
+    <div>
+  <div class="container" id="flexbox1">
+     <img src="images.png">
+  </div>
+  
+  <div class="container" id="flexbox3">
+    <select name="wow" id="select" >
+        <OPtion value="#">HOW WEBSITE IS MADE</OPtion>
+        <OPtion value="EXCELLENT">EXCELLENT</OPtion>
+        <OPtion value="GOOD">GOOD</OPtion>
+        <option value="SATISFACTORY">SATISFACTORY</option>
+
+
+  </div>
+
+    </div>   
+</body>
+</html>
