@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --background-color: 2px solid green;
+        }
+.container{
+    background-color:(--background-color);
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+
+  
+    body{ 
+        margin: auto;
+        display: flex;
+       
+        
+
+        
+    }  </style>
+</head>
+<body>
+    
+        <div class="container" id="box1">
+            ( BOX1 )Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, veniam?Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Perferendis, repellendus. Nulla totam, doloribus in quam eaque mollitia sit nam corrupti.
+        </div>
+        <div class="container" id="box2">
+            ( BOX2 ) Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, veniam?Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nobis laboriosam in ratione aliquid, doloremque eum maxime voluptatum provident nam eos.
+        </div>
+        <div class="container" id="box3">
+            ( BOX3 )  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, veniam?Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Reiciendis, amet velit quas culpa rem ipsam hic temporibus officia odio laborum.
+        </div>
+        <div class="container" id="box4">
+            ( BOX4 ) Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, veniam? Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Odit hic voluptatem aspernatur, ad error
+            exercitationem laboriosam cum dolores saepe iure.</div>
+    
+    
+</body>
+</html>

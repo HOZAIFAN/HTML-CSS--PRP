@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  #size1{
+       width: 100vw;  /* this is used to give height to view port without setting pixels */
+        height: 100vh;  /* this is used to give width  to view port without setting pixels */
+        border: 2px solid red;
+    }
+    #box1{
+       font-size: 10em ; /*  em will increase text size relative to it container  */
+
+    }
+    #box2{
+        word-break: break-all;
+        
+        font-size: 5rem ; /*  rem will increase text size relative to  body of page  */
+    }
+  
+</style>
+<body><div id="size1">
+<div><h1  class=" size " id="box1">HOZAIFA THE GREAT 1</h1></div>
+<div><h1 class=" size " id="box2"> HOZAIFA THE GREAT 2</h1></div>
+<div><h1 class=" size " id="box3"> HOZAIFA THE GREAT 3</h1></div>
+</div>
+    
+</body>
+</html>

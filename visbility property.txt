@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#box1 {
+    visibility: hidden; /*  it will hide the box but will reserver the space */
+    background-color: black;
+    width: 200px;
+    height: 200px;
+
+}
+#box2 { 
+    display: none ; /* the difference between vidibilty hidden and dispklay none is that visibility 
+    reserver space while display none does not reserver space; */
+      background-color: aqua;
+      width: 200px;
+    height: 200px;
+ }
+ #box3 {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+
+} 
+#box4 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+
+}
+
+
+</style>
+<body>
+    <div class="container" id="box1">
+
+    </div>
+    <div class="container" id="box2">
+
+    </div>
+    <div class="container" id="box3">
+
+    </div>
+    <div class="container" id="box4">
+
+    </div>
+    
+</body>
+</html>

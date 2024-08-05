@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box1{
+       z-index: 34;  /*  zindex is used to decide which elemnt will show over other */
+        position: relative;
+        top: 150px;
+     background-color: black;
+     width: 200px;
+     height: 200px;
+     }
+    #box2{
+        position: relative;
+        z-index: 55; /*   the box with higher order will be showed over other box  */
+        background-color: aqua;
+        top: 100px;
+        width: 200px;
+        height: 200px;
+
+    }
+    #box3{
+        background-color: yellowgreen;
+        width: 200px;
+        height: 200px;
+
+    }
+</style>
+<body>
+    <div class="container" id="box1">
+
+    </div>
+    <div class="container" id="box2">
+
+    </div>
+    <div class="container" id="box3">
+
+    </div>
+</body>
+</html>

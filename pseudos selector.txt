@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.li{
+    text-align: center;
+    background-color: aqua;
+    padding: 30px;
+    display: block;
+    width:200px ;
+    margin:10PX auto;
+}
+ li:nth-child(2n+0){ /* by pseudo selector we can add css  */
+    background-color: blue;
+    color: yellow;
+}
+
+li:nth-child(odd){
+    /* this is another way to  add css   */
+    background-color: violet;
+    color: brown;
+}
+input[type="text"]{ /* this is another way to add pseudo class */ 
+    border: 4px solid red;
+    background-color: aqua;
+    padding: 15PX;
+    display: block;
+    width: 100px;
+    margin: auto;
+    cursor: pointer;
+   
+}
+
+input[type="email"]{
+
+    border:4px solid gray ;
+    background-color: blue;
+    display: block;
+    width: 100px;
+    margin:15PX auto;
+    padding: 15PX;
+    cursor: pointer;
+}
+ a[target]{ /* this is another way of adding pseudo selector */
+    color: crimson;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: brown;
+    font-size: 85px;
+    text-align: center;
+}
+.go{
+    text-align: center;
+    margin: 13px;
+    border: 2px solid gray;
+    max-height: 800px;
+}
+
+
+</style>
+<body> 
+    <form action="php.">
+      <input type="text" placeholder="ENTER YOUR NAME" > 
+        <input type="email"   placeholder="ENTER YOUR EMAIL" > 
+    </form>
+    <div class="go" ><a href="http://google.com" target="_blank">HI I AM GOOGLE</a></div>
+    
+    <div class="go"  > <a href="http://facbook.com" >HI I AM FACEBOOKS</a></div>
+
+        <ul>
+                 <li  class="li" id="li1">THIS IS ME HOZAIFA</li>
+     <li  class="li" id="li2">THIS IS ME WAJEEHA  </li>
+     <li  class="li" id="li3">THIS IS ME NABEEHA </li>
+     <li  class="li" id="li4">THIS IS ME HORAIRA </li>
+     <li  class="li" id="li5">THIS IS ME MUDASSIR </li>
+     <li  class="li" id="li6">THIS IS ME MUBASSIR</li>
+     <li  class="li" id="li7">THIS IS ME NAEEM </li>
+     <li  class="li" id="li8">THIS IS ME SHAHID</li>
+     <li  class="li" id="li9">THIS IS ME NAEEM </li>
+     <li class="li" id="li10">THIS IS ME  MUHAMMAD HUSSAIN</li>
+
+  </ul>
+</body>
+</html>

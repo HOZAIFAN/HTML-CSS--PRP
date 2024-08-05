@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+.box{
+    font-size: 40px;
+   color: rgba(0, 0, 0, 0.907);
+   background-color: rgb(255, 145, 0);
+   text-align: center;
+   padding: 2px;
+   margin: 2px;
+   height: 100px;
+   display: none;
+   
+}
+
+@media (min-width: 0px ) and ( max-width:500px ){
+    #box1{ display: block;
+        background-color: aquamarine;
+
+    }
+}
+@media (min-width: 500px ) and ( max-width:800px ){
+    #box2{
+        display: block;
+        background-color: rgb(102, 8, 255);
+     }
+}
+@media ( min-width:800px ) and ( max-width:1000px){
+    #box3{
+        display: block;
+        background-color: coral;
+    }
+}
+@media( min-width:1000px) and (max-width:1267px){
+    #box4{
+        display: block;
+        background-color: brown;
+        color: aliceblue;
+    }
+}
+
+
+</style>
+<body>
+    <div class="box" id="box1">
+        I AM TABLET 
+    </div>
+    <div class="box" id="box2">
+        I AM MOBILE
+    </div>
+    <div class="box" id="box3">
+    I AM PC 
+  </div>
+  <div class="box" id="box4">
+    I AM GANGSTER 
+</div>
+
+
+</body>
+</html>

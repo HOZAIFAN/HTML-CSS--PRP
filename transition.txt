@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+       background-color:  brown;
+    }
+
+    #box{ 
+        display:flex;
+        background-color: lightseagreen; 
+        border: 3px solid salmon;
+        width: 250px;
+        height: 200px;
+        color: rgb(242, 0, 255);
+        justify-content: center ; 
+        text-align: center; 
+        align-items: center;
+        transition: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in;
+    
+      
+    }
+
+    #box:hover{
+        background-color: rgb(21, 0, 255);
+        border-radius: 40px;
+        width: 350px;
+        height: 300px;
+        font-size: 40px;
+        border: 9px solid green;
+
+
+        
+    }
+</style>
+<body>
+    <div id="container">
+
+        <div id="box">
+          <a href=""> hello world</a>
+
+        </div>
+    </div>
+</body>
+</html>
