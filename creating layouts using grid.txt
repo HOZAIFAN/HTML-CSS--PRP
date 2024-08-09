@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main {
+        display: grid;
+        grid-gap: 0.5rem;
+        grid-template-areas:
+
+            'navbar navbar navbar navbar'
+            'section section section aside';
+    }
+
+    .sub {
+        background-color: blue;
+        border: 5px solid yellow;
+        color: aliceblue;
+    }
+
+    #navbar {
+        grid-area: navbar;
+    }
+
+    #section {
+        grid-area: section;
+
+    }
+
+    #aside {
+        grid-area: aside;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div id="navbar" class="sub">
+            home aboutus contactus
+        </div>
+        <div id="section" class="sub">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Dolores facere odit, consequuntur nam labore dicta
+            commodi sit! Et, non Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis
+            consequatur reprehenderit mollitia rem aliquam fugit sint odio laudantium, sed laboriosam nihil explicabo
+            veritatis. Cupiditate, quia corrupti corporis nesciunt minus voluptate rerum aperiam maxime. Quam eaque
+            dicta officiis voluptatum, quidem molestiae odit quisquam. Fugit ex debitis enim impedit quia, aperiam
+            minima, incidunt eligendi animi officiis voluptatum mollitia nulla pariatur numquam possimus cupiditate
+            molestiae asperiores necessitatibus harum nam unde in nesciunt. Debitis aspernatur, cum totam nisi nam
+            suscipit perferendis impedit itaque aperiam iste, enim rerum unde necessitatibus quia harum adipisci iure.
+
+        </div>
+        <div id="aside" class="sub">Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Omnis unde perferendis fuga nulla
+            similique ea reiciendis nisi, eos nesciunt. Cum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Sed quam soluta quod repellat saepe magnam, quibusdam officiis quidem itaque ullam! Beatae odit quod quia
+            repellendus consectetur earum, obcaecati commodi minima laudantium quis ut exercitationem sit asperiores
+            maxime voluptatibus officia, eveniet quisquam eius blanditiis! Eius quia repudiandae modi distinctio
+            doloribus ipsam quos rerum magnam porro assumenda aut deserunt et, recusandae explicabo quisquam dicta optio
+            iusto veniam quasi accusantium nulla sunt alias incidunt. Quos ipsam aspernatur, ad error in veritatis
+            consectetur quisquam iure quae maxime voluptates accusantium magnam. Tempora consequatur quae beatae!</div>
+    </div>
+
+</body>
+
+</html>
