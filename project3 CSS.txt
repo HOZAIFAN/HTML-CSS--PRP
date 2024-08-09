@@ -1,0 +1,323 @@
+/* NAV BAR CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navsetting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 20px;
+    color: aliceblue;
+    margin: 0px;
+    font-family: 'Baloo Bhai', cursive;
+    max-height: 100px;
+
+}
+
+#navsetting::before {
+    content: "";
+    background-color: black;
+    display: block;
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(252, 254, 255);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+a:hover {
+    font-size: 30px;
+    border-radius: 6px;
+    background-color: rgb(208, 149, 12);
+    transform: scale(1.2);
+}
+
+.inverted {
+    filter: invert(100%);
+}
+
+#navsetting,
+img {
+    /* margin: 10px; */
+    height: 70px;
+    width: 80px;
+}
+
+#box2 {
+    width: 1200px;
+}
+
+#box2 ul {
+    display: flex;
+    margin: 10px;
+}
+
+#box2 li {
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    margin: 5px;
+    list-style: none;
+
+}
+
+
+#home {
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    padding: 60px;
+    color: rgb(255, 213, 213);
+}
+
+
+#H1 {
+    text-decoration: underline;
+    padding: 10px;
+}
+
+
+#home::before {
+
+    content: "";
+    opacity: 0.9;
+    position: absolute;
+    background: url(brown.jpg) no-repeat center center/cover;
+    height: 410px;
+    width: 100%;
+    z-index: -2;
+
+}
+
+
+#sec2 {
+    width: 2000px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 10px;
+    margin: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Baloo Bhai', cursive;
+
+}
+
+#h1 {
+    font-size: 50px;
+    color: #e1ff00;
+    text-decoration: underline;
+}
+
+#sec2::before {
+    content: "";
+    background: url(veg.jpg) no-repeat center center/cover;
+    display: block;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    z-index: -3;
+    opacity: .7;
+}
+
+#sec2 img {
+    width: 550px;
+    height: 330px;
+}
+
+#maindiv {
+    display: flex;
+    flex-direction: row;
+}
+
+#sec2box1 {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    height: 760px;
+    background-color: #ffeaea;
+    margin: 10px;
+    box-shadow: 10px 10px 10px rgb(213, 1, 255);
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    border: 5px solid rgb(0, 0, 0);
+    transition: all;
+    transition-timing-function: ease-out;
+}
+
+#sec2box1:hover img {
+    width: 670px;
+    height: 350px;
+}
+
+#sec2box1:hover {
+    height: 760px;
+    width: 670px;
+    border-radius: 10px;
+    font-size: 26px;
+}
+
+#sec2box2 {
+
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    height: 760px;
+    background-color: #ffeaea;
+    margin: 10px;
+    box-shadow: 10px 10px 10px rgb(98, 1, 254);
+    margin: 10px;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+#sec2box2:hover img {
+    width: 670px;
+    height: 350px;
+}
+
+#sec2box2:hover {
+    height: 760px;
+    width: 670px;
+    border-radius: 10px;
+    font-size: 26px;
+}
+
+
+#sec2box3 {
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    height: 760px;
+    background-color: #ffeaea;
+    margin: 10px;
+    box-shadow: 10px 10px 10px rgb(1, 178, 254);
+    font-size: 24px;
+    align-items: center;
+    border: 5px solid black;
+}
+
+#sec2box3:hover img {
+    width: 670px;
+    height: 350px;
+}
+
+#sec2box3:hover {
+    height: 760px;
+    width: 670px;
+    border-radius: 10px;
+    font-size: 26px;
+}
+
+#sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 2133px;
+    height: 200px;
+}
+
+#sec3::before {
+    content: "";
+    background: url(clients.jpg) center center/cover no-repeat;
+    position: absolute;
+    top: 1500px;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+    z-index: -4;
+}
+
+#h3 {
+    font-size: 44px;
+}
+
+#sec3maindiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    /* margin: 30px; */
+    width: 1800px;
+    height: 200px;
+}
+
+#app img {
+    margin: 30px;
+    padding: 3dv3;
+    height: 146px;
+    width: 174px;
+}
+
+#ama img {
+    margin: 30px;
+    padding: 30px;
+    height: 146px;
+    width: 174px;
+}
+
+#sam img {
+    margin: 30px;
+    padding: 30px;
+    height: 146px;
+    width: 174px;
+}
+
+#pg img {
+    margin: 30px;
+    padding: 30px;
+    height: 146px;
+    width: 174px;
+}
+
+#lou img {
+    margin: 30px;
+    padding: 30px;
+    height: 146px;
+    width: 174px;
+}
+
+#tsmc img {
+    margin: 30px;
+    padding: 30px;
+    height: 146px;
+    width: 174px;
+}
+
+#FOOT {
+    /* margin: 20px auto; */
+    height: 30px;
+    text-align: CENTER;
+    background-color: black;
+    color: aliceblue;
+
+}

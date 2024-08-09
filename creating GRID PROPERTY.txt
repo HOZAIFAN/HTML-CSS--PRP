@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID PROPERTY</title>
+    <style>
+        .container{
+            background-color: red;
+            margin: 10px;
+    
+        }
+        #maindiv{  
+            /* grid-template-columns: 200px 300px 400px; */
+          grid-template-columns: 1fr 4fr 1fr ;   /*  to dive the layout in ratio  */
+            display: grid;
+            /* grid-gap:3rem ;  to add gap between grid itmes  */
+        }
+    </style>
+</head>
+<div id="maindiv">
+<div class="container" id="box11">THIS IS BOX 11</div>
+<div class="container" id="box12">THIS IS BOX 12</div>
+<div class="container" id="box13">THIS IS BOX 13</div>
+<div class="container" id="box14">THIS IS BOX 14</div>
+<div class="container" id="box15">THIS IS BOX 15</div>
+<div class="container" id="box16">THIS IS BOX 16</div>
+<div class="container" id="box17">THIS IS BOX 17</div>
+<div class="container" id="box18">THIS IS BOX 18</div>
+<div class="container" id="box19">THIS IS BOX 19</div>
+<div class="container" id="box110"THIS IS BOX 20></div></div>
+<body>
+</body>
+</html>

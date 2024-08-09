@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>span in grid</title>
+    <style>
+       #maindiv{
+            display: grid;
+            row-gap: 0.5rem;
+            column-gap: 0.5rem;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+        }
+        .container:first-child {
+            /* grid-column-start:1 ;
+            grid-column-end: 3;
+            grid-row-start:1;
+            grid-row-end:3;     similarly */   
+            grid-column: 1/span 3;
+            grid-row: 1/span 3 ;
+             
+        }
+
+        .container {
+            background-color: red;
+            border: 2px solid greenyellow;
+           
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="maindiv">
+    <div class="container">i am box 11</div>
+    <div class="container">i am box 12</div>
+    <div class="container">i am box 13</div>
+    <div class="container">i am box 14</div>
+    <div class="container">i am box 15</div>
+    <div class="container">i am box 16</div>
+    <div class="container">i am box 17</div>
+    <div class="container">i am box 17</div>
+    <div class="container">i am box 17</div>
+    <div class="container">i am box 17</div>
+    <div class="container">i am box 17</div>
+    <div class="container">i am box 17</div>
+    <div class="container">i am box 17</div>
+    <div class="container">i am box 18</div>
+    <div class="container">i am box 19</div>
+    <div class="container">i am box 110</div>>
+</div>
+</body>
+
+</html>

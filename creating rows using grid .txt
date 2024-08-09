@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating rows using grid</title>
+</head>
+<style>
+    .container {
+        display: grid;
+        grid-template-rows: 2fr 2fr 2fr;
+        /*  it divide the row in three fraction */
+        grid-template-columns: 1fr 1fr 2fr;
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+    .box {
+        background-color: red;
+        border: 2px solid greenyellow;
+    }
+
+    #email {
+        padding: 2px;
+        margin: 2px;
+        border-radius: 5px;
+        text-align: center;
+        transition-duration:  9 s;
+        transform: all;
+
+    }
+    #email:hover{
+        background-color: rgb(255, 197, 140);
+        height:26px;
+        width: 187px;
+        border-radius: 10px;
+    }
+    #pass {
+        padding: 2px;
+        margin: 2px;
+        border-radius: 5px;
+        text-align: center;
+
+    }
+    #pass:hover{
+        background-color: rgb(255, 197, 140);
+        height:26px;
+        width: 187px;
+        border-radius: 10px;}
+    #button{
+        text-decoration: none;
+        background-color: black;
+        color: white; 
+    button:hover{
+        background-color: gray;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box"> i am box11</div>
+        <div class="box"> i am box12</div>
+        <div class="" id="form">
+            <form action="#"><label for="email">
+                    <input type="email" name="email" id="email" placeholder="xyz@gmail.com">
+                </label>
+                <label for="pass">
+                    <input type="text" name="pass" id="pass" placeholder="pass">
+                   </label>
+                <button >log in</button>
+            </form>
+        </div>
+        <div class="box"> i am box14</div>
+        <div class="box"> i am box15</div>
+        <div class="box"> i am box16</div>
+        <div class="box"> i am box17</div>
+        <div class="box"> i am box18</div>
+        <div class="box"> i am box19</div>
+    </div>
+
+</body>
+
+</html>

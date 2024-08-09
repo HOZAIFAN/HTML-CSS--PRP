@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalnia+Glaze:wdth,wght@105.8,100..700&family=Noto+Sans+Mongolian&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navsetting">
+        <div id="box1">
+            <img src="jp-letter-logo-design-unique-professional-pj-logo-design_469822-928.jpg" alt="LOGO ERROR"
+                class="inverted">
+        </div>
+   
+                 
+        <div id="box2">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">DEALS</a></li>
+                <li><a href="#">RESERVATIONS</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul> 
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1 id="H1"> WELCOME TO JAPI RESTURENT</h1>
+        <p>
+            JAPI, located in the heart of Attock, is a culinary gem that promises a dining experience like no other.</p> Our
+            menu is a delightful fusion of traditional and contemporary flavors, crafted with the finest ingredients
+            sourced locally and sustainably. Each dish at JAPI is a testament to our chefs' dedication to quality and
+            creativity, offering a vibrant tapestry of tastes and textures that cater to every palate. From succulent
+            grilled meats and fresh seafood to hearty vegetarian options and innovative desserts, our offerings are
+            designed to tantalize your taste buds. The warm and inviting ambiance of our restaurant, coupled with our
+            attentive service, ensures that every meal feels special. At JAPI, we believe in the power of food to bring
+            people together, and we strive to create moments that are as memorable as they are delicious.</p>
+    </section> 
+  
+    <section id="sec2">
+        <h1 id="h1" >OUR SERVICES </h1>
+        <div id="maindiv"> 
+        <div id="sec2box1">
+            <img src="pizza pic.png" alt="pizzapic">
+            <h1>CHEESY PARADISE PIZZA</h1>
+            <p>Our CHEESY PARADISE PIZZA is a heavenly blend of gooey, melted cheeses and the finest toppings. The
+                hand-tossed crust is baked to golden perfection, providing the ideal base for a rich tomato sauce and an
+                array of fresh, flavorful ingredients. Each slice delivers a perfect harmony of cheese, sauce, and
+                toppings, making it a true pizza lover's dream. Indulge in this cheesy paradise and experience a taste
+                of culinary bliss.
+            </p>
+
+        </div>
+        <div id="sec2box2">
+            <img src="burger2-868145_640.jpg" alt="pizzapic">
+            <h1>JUICY BLISS BURGER</h1>
+
+            <p> The CRUNCHY DELIGHT BURGER is a masterpiece of flavors and textures, featuring a perfectly seasoned
+                patty topped with fresh, crisp lettuce and juicy tomatoes. Encased in a warm, toasted bun, each bite
+                offers a satisfying crunch and a burst of savory goodness. Our special house sauce adds an extra layer
+                of deliciousness, making it an unforgettable experience. This burger is crafted to perfection, ensuring
+                every mouthful is a delight.
+            </p>
+        </div>
+        <div id="sec2box3">
+
+            <img src="sweet2.jpg" alt="pizzapic">
+            <h1>SWEET SYMPHONY TREAT</h1>
+            <p>The HEAVENLY BLISS DESSERT is a sweet symphony of flavors that will transport your taste buds to
+                paradise. Made with the finest ingredients, this dessert offers a delicate balance of sweetness and
+                texture. From its creamy, melt-in-your-mouth goodness to its beautifully presented appearance, every
+                bite is a moment of pure indulgence. Perfect for satisfying your sweet tooth, this dessert is a
+                delightful end to any meal.
+            </p>
+        </div></div>
+    </section>
+    <section id="sec3">
+        <h1 id="h3">OUR CLIENTS</h1>
+        <div id="sec3maindiv">
+            <div id="app"><img src="Apple-Logo-500x281-min.png" alt=""></div>
+            <div id="sam"><img src="Samsung-Logo-2-500x281-min.png" alt=""></div>
+            <div id="ama"><img src="Amazon-Logo-500x313-min.png" alt=""></div>
+            <div id="pg"><img src="PG-logo-500x334-min.png" alt=""></div>
+            <div id="lou"><img src="Louis-Vuitton-logo-500x281-min.png" alt=""></div>
+            <div id="tsmc"><img src="TSMC-Logo-500x315-min.png" alt=""></div>
+        </div>
+    </section>
+    <footer id="FOOT">
+        &copy JAPI LIMITED ALL RIGHT RESERVED
+    </footer>
+
+</body>
+
+</html>
