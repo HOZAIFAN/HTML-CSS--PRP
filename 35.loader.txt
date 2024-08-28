@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #loader{
+            height: 200px;
+            width: 200px;
+            border: 8px solid rgb(0, 0, 0);
+            border-top:8px solid rgb(209, 255, 2);
+            border-radius: 50%;
+            animation:loader-animation ;
+            animation-timing-function: ease-out;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+
+        }
+        @keyframes loader-animation{
+            from{ transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg); 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="loader">
+      
+    </div>
+    
+</body>
+</html>
