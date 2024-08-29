@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAZON.COM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css for project 4.css">
+
+
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <div id="navlogo" class="border">
+                <div id="logo">
+                    <a href="#"> <img src="very.png" alt=""> </a>
+                </div>
+            </div>
+            <div>
+                <div id="navdiliver" class="navlogo border">
+                    <div id="diliver">
+                        <p id="firstfont">Diliver to</p>
+                        <p id="secondfont"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                <path
+                                    d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                            </svg> Pakistan</p>
+                    </div>
+                </div>
+            </div>
+            <div id="navselect">
+                <form action="#">
+                    <select name="slect" id="select">
+                        <option selected="selected" value="search-alias=aps">All</option>
+                        <option value="search-alias=arts-crafts-intl-ship">Arts</option>
+                        <option value="search-alias=automotive-intl-ship">Automotive</option>
+                        <option value="search-alias=baby-products-intl-ship">Baby</option>
+                        <option value="search-alias=beauty-intl-ship">Beautye</option>
+                        <option value="search-alias=stripbooks-intl-ship">Books</option>
+                        <option value="search-alias=fashion-boys-intl-ship">Boys' n</option>
+                        <option value="search-alias=computers-intl-ship">Computers</option>
+                        <option value="search-alias=deals-intl-ship">Deals</option>
+                        <option value="search-alias=digital-music">Digital</option>
+                        <option value="search-alias=electronics-intl-ship">Electronics</option>
+                        <option value="search-alias=fashion-girls-intl-ship">Girls' </option>
+                        <option value="search-alias=hpc-intl-ship">Health</option>
+                        <option value="search-alias=kitchen-intl-ship">Home</option>
+                        <option value="search-alias=industrial-intl-ship">Industrial</option>
+                        <option value="search-alias=digital-text">Kindle Store</option>
+                        <option value="search-alias=luggage-intl-ship">Luggage</option>
+                        <option value="search-alias=fashion-mens-intl-ship">Men's</option>
+                        <option value="search-alias=movies-tv-intl-ship">Movie</option>
+                        <option value="search-alias=music-intl-ship">Music</option>
+                        <option value="search-alias=pets-intl-ship">Pet/option>
+                        <option value="search-alias=instant-video">Prime</option>
+                        <option value="search-alias=software-intl-ship">Software</option>
+                        <option value="search-alias=sporting-intl-ship">Sports</option>
+                        <option value="search-alias=tools-intl-ship">Tools</option>
+                        <option value="search-alias=toys-and-games-intl-ship">Toys </option>
+                        <option value="search-alias=videogames-intl-ship">Video </option>
+                        <option value="search-alias=fashion-womens-intl-ship">Women's</option>
+                        <input type="search" id="search" placeholder="Search Amazon">
+
+                    </select>
+
+                </form>
+                <div id="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg>
+
+                </div>
+            </div>
+            </form>
+
+            <div id="navlang">
+                <div id="lang">
+                    <select name="lang" id="langselect">
+                        <option value="English">EN</option>
+                        <option value="Arabic">Ar</option>
+                        <option value="persian">pe</option>
+                        <option value="urdu">ur</option>
+                        <option value="chinese">ch</option>
+                        <option value="spanish">sp</option>
+                        <option value="romani">ro</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <div id="signin">
+
+                    <p style="font-size: 10px;">Hello,sign in</p>
+                    <select name="signino" id="sign">
+                        <option value="" id="chose">Account&list </p>
+                        </option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div id="navpara">
+                <div id="para">
+                    <p id="para3">Returns </p>
+                    <p id="para4">&Orders</p>
+                </div>
+            </div>
+
+            <div id="navCART">
+                <div id="CART">
+                    <P><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cart-check" viewBox="0 0 16 16">
+                            <path
+                                d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z" />
+                            <path
+                                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg> Cart</P>
+                </div>
+            </div>
+        </div>
+
+        <div id="secondnav">
+            <div id="secondnavdiv">
+                <ul>
+
+                    <li id="li2">
+                        &#9776All
+                    </li>
+                    <li id="li3">
+                        Today's Deals
+                    </li>
+                    <li id="li4">
+                        Customer Services
+                    </li>
+                    <li id="li5">
+                        Registry
+                    </li>
+                    <li id="li6">
+                        Gift Cards
+                    </li>
+                    <li id="li7">
+                        Sell
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+        <!-- body start here -->
+        <div id="box">
+            <div id="box1">
+                <div class="paraclass">
+                    <p>Gamming Acessories</p>
+                </div>
+                <div class="divdisplay innerclass ">
+                    <div><a href="#"><img src="Chair_1x._SY116_CB667159060_.jpg" class="img"></a>
+                        <p>Gamming Chair</p>
+                    </div>
+                    <div><a href="#"><img src="Headset_1x._SY116_CB667159060_.jpg" class="img"></a>
+                        <p>Headset</p>
+                    </div>
+                    <div><a href="#"><img src="Mouse_1x._SY116_CB667159063_.jpg" class="img"></a>
+                        <p>Mouse</p>
+                    </div>
+                    <div><a href="#"><img src="Keyboard_1x._SY116_CB667159063_.jpg" class="img"></a>
+                        <p>Keyboard</p>
+                    </div>
+                    <div id="link">
+                        <a href="">see more</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 
+            
+            box 2
+
+            -->
+            <div id="box2">
+                <div class="paraclass">
+                    <p>Refresh Your Space</p>
+                </div>
+                <div class="divdisplay innerclass ">
+                    <div><a href="#"><img src="diing.jpg" class="secondboximage"></a>
+                        <p>Dining</p>
+                    </div>
+                    <div><a href="#"><img src="home.jpg" class="secondboximage"></a>
+                        <p>Home</p>
+                    </div>
+                    <div><a href="#"><img src="kitchen.jpg" class="secondboximage"></a>
+                        <p>kitchen</p>
+                    </div>
+                    <div><a href="#"><img src="healtha nd.jpg" class="secondboximage"></a>
+                        <p>Health</p>
+                    </div>
+                    <div id="link">
+                        <a href="">see more</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 
+            
+            box 3
+
+            -->
+            <div id="box3">
+                <div class="paraclass">
+                    <p>Shops deal in Fashions</p>
+                </div>
+                <div class="divdisplay innerclass ">
+                    <div><a href="#"><img src="jeans.jpg" class="secondboximage"></a>
+                        <p>Jeans</p>
+                    </div>
+                    <div><a href="#"><img src="tops.jpg" class="secondboximage" s></a>
+                        <p>Tops</p>
+                    </div>
+                    <div><a href="#"><img src="shoes.jpg" class="secondboximage"></a>
+                        <p>Shoes</p>
+                    </div>
+                    <div><a href="#"><img src="dress.jpg" class="secondboximage"></a>
+                        <p>Dress</p>
+                    </div>
+                    <div id="link">
+                        <a href="">see more</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 
+            
+            box 4
+
+            -->
+            <div id="box4">
+                <div class="paraclass">
+                    <p>Home Arrivals Under&#65284 50</p>
+                </div>
+                <div class="divdisplay innerclass ">
+                    <div><a href="#"><img src="KITCHEN AND DINING.jpg" class="secondboximage"></a>
+                        <p>Kitchen&Dining</p>
+                    </div>
+                    <div><a href="#"><img src="HOME IMPROVMENT.jpg" class="secondboximage" s></a>
+                        <p>Improvment</p>
+                    </div>
+                    <div><a href="#"><img src="DECOR.jpg" class="secondboximage"></a>
+                        <p>Decor</p>
+                    </div>
+                    <div><a href="#"><img src="BEDSHIT.jpg" class="secondboximage"></a>
+                        <p>Bedding&Bath</p>
+                    </div>
+                    <div id="link">
+                        <a href="">Shop latest </a>
+
+                    </div>
+                    <div id="link">
+                        <a href="">From home </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="bodybox2">
+            <!-- 
+            
+            
+            box5
+             
+            
+            -->
+            <div id="box5">
+                <div class="paraclass">
+                    <p>Have more fun with family</p>
+                </div>
+                <div class="divdisplay innerclass ">
+                    <div><a href="#"><img src="outdoor.jpg" class="secondboximage"></a>
+                        <p>OutdoorPlaySets</p>
+                    </div>
+                    <div><a href="#"><img src="learning.jpg" class="secondboximage" s></a>
+                        <p>Learning Toys</p>
+                    </div>
+                    <div><a href="#"><img src="action.jpg" class="secondboximage"></a>
+                        <p>Action figures</p>
+                    </div>
+                    <div><a href="#"><img src="presented.jpg" class="secondboximage"></a>
+                        <p>PretendPlaytoys</p>
+                    </div>
+                    <div id="link">
+                        <a href="">Shop latest </a>
+
+                    </div>
+                    <div id="link">
+                        <a href="">From home </a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 
+            
+            box 6
+
+            -->
+            <div id="box6">
+                <div class="paraclass">
+                    <p>Level up your beauty Routine</p>
+                </div>
+                <div class="divdisplay innerclass ">
+                    <div><a href="#"><img src="makup.jpg" class="secondboximage"></a>
+                        <p>Makeup</p>
+                    </div>
+                    <div><a href="#"><img src="brushes.jpg" class="secondboximage"></a>
+                        <p>Brushes</p>
+                    </div>
+                    <div><a href="#"><img src="sponges.jpg" class="secondboximage"></a>
+                        <p>Sponges</p>
+                    </div>
+                    <div><a href="#"><img src="mirrors.jpg" class="secondboximage"></a>
+                        <p>Mirrors</p>
+                    </div>
+                    <div id="link">
+                        <a href="">See more </a>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- 
+            
+            box 7
+
+            -->
+            <div id="box7">
+                <div class="paraclass">
+                    <p>Fantastic Finds For Home</p>
+                </div>
+                <div class="divdisplay innerclass ">
+                    <div><a href="#"><img src="kitchennew.jpg" class="secondboximage"></a>
+                        <p>Kitchen</p>
+                    </div>
+                    <div><a href="#"><img src="homedecor.jpg" class="secondboximage"></a>
+                        <p>Home decor</p>
+                    </div>
+                    <div><a href="#"><img src="Dining.jpg" class="secondboximage"></a>
+                        <p>Dining</p>
+                    </div>
+                    <div><a href="#"><img src="smart home.jpg" class="secondboximage"></a>
+                        <p>Smart Home</p>
+                    </div>
+                    <div id="link">
+                        <a href="">see more</a>
+
+                    </div>
+
+
+                </div>
+                <!-- 
+            
+            box 8
+
+            -->
+                <div id="box8">
+                    <div class="paraclass">
+                        <p>Level Your Gamming</p>
+                    </div>
+                    <div class="divdisplay innerclass ">
+                        <div><a href="#"><img src="pc.jpg" class="secondboximage"></a>
+                            <p>Gamming Pc</p>
+                        </div>
+                        <div><a href="#"><img src="xbox.jpg" class="secondboximage" s></a>
+                            <p>Xbox</p>
+                        </div>
+                        <div><a href="#"><img src="playstation.jpg" class="secondboximage"></a>
+                            <p>Playstation</p>
+                        </div>
+                        <div><a href="#"><img src="nin.jpg" class="secondboximage"></a>
+                            <p>Nintendoswitch</p>
+                        </div>
+                        <div id="link">
+                            <a href="">Shop latest </a>
+
+                        </div>
+                        <div id="link">
+                            <a href="">From home </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- 
+            
+            box 9
+
+            -->
+
+                <div id="box9">
+                    <div class="paraclass">
+                        <p>Deals in PC</p>
+                    </div>
+                    <div class="innerclass ">
+                        <div><a href="#"><img src="deals in pc.jpg" class="bigimg"></a>
+                            <p>Gamming Pc</p>
+                        </div>
+                    </div>
+                    <div id="link" class="link">
+                        <a href="">see more </a>
+
+                    </div>
+
+
+                </div>
+                <!-- 
+                box 10
+                 -->
+
+                <div id="box10">
+                    <div class="paraclass">
+                        <p>Toys under $25</p>
+                    </div>
+                    <div class="innerclass ">
+                        <div><a href="#"><img src="tpys.jpg" class="bigimg"></a>
+
+                        </div>
+                    </div>
+                    <div id="link" class="link">
+                        <a href="">see more </a>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- 
+                box 11
+                 -->
+
+
+                <div id="box11">
+                    <div class="paraclass">
+                        <p>Fashion trends you like</p>
+                    </div>
+                    <div class="divdisplay innerclass ">
+                        <div><a href="#"><img src="dressesssss.jpg" class="secondboximage"></a>
+                            <p>Dresses</p>
+                        </div>
+                        <div><a href="#"><img src="knits.jpg" class="secondboximage" s></a>
+                            <p>Knits</p>
+                        </div>
+                        <div><a href="#"><img src="jackets.jpg" class="secondboximage"></a>
+                            <p>Jacket</p>
+                        </div>
+                        <div><a href="#"><img src="jewelry.jpg" class="secondboximage"></a>
+                            <p>Jewelry</p>
+                        </div>
+                        <div id="link">
+                            <a href="">See more</a>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+                <!-- 
+                box 12
+                 -->
+
+
+                <div id="box12">
+                    <div class="paraclass">
+                        <p>Shop School Supplies</p>
+                    </div>
+                    <div class="innerclass ">
+                        <div><a href="#"><img src="bag.jpg" class="bigimg"></a>
+                        </div>
+                    </div>
+                    <div id="link" class="link">
+                        <a href="">see more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bodybox3">
+            <div id="box13">
+                <p class="classouterpara"> Best Sellers in Beauty & Personal Care
+                </p>
+                <div id="inbox13">
+                    <a href=""> <img src="MAKEUP REMOVER.jpg" class="classouterimg" alt=""></a>
+                    <a href=""> <img src="TRIMMER.jpg" class="classouterimg" alt=""></a>
+                    <a href=""> <img src="COTTON.jpg" class="classouterimg" alt=""></a>
+                    <a href=""> <img src="GOODY.jpg" class="classouterimg" alt=""></a>
+                    <a href=""> <img src="DOVE.jpg" class="classouterimg" alt=""></a>
+                    <a href=""> <img src="Q TIPS.jpg" class="classouterimg" alt=""></a>
+                    <a href=""> <img src="HYDRO.jpg" class="classouterimg" alt=""></a>
+                    <a href=""> <img src="CEREVE.jpg" class="classouterimg" alt=""></a>
+                </div>
+            </div>
+            <!-- 
+                box14 -->
+            <div id="box14">
+                <p class="classouterpara">Best Sellers In Clothing, Shoes & Jwelleries</p>
+                <div id="inbox14">
+                    <a href=""> <img src="ismail.jpg"  class="classbox14outerimg" alt="" ></a>
+                    <a href=""> <img src="white.jpg" class="classbox14outerimg" alt=""></a>
+                    <a href=""> <img src="black.jpg" class="classbox14outerimg" alt=""></a>
+                    <a href=""> <img src="men.jpg" class="classbox14outerimg" alt=""></a>
+                    <a href=""> <img src="leg.jpg" class="classbox14outerimg" alt=""></a>
+                    <a href=""> <img src="ik or white.jpg" class="classbox14outerimg" alt=""></a>
+                    <a href=""> <img src="night dress.jpg" class="classbox14outerimg" alt=""></a>
+                
+                </div>
+            </div>
+
+<!--
+             box 15
+  -->
+  <div id="box15">
+    <div class="paraclass">
+        <p>Creating buisness solutions</p>
+    </div>
+    <div class="innerclass ">
+        <div><a href="#"><img src="laptop.jpg" class="bigimg"></a>
+
+        </div>
+    </div>
+    <div id="link" class="link">
+        <a href="">see more </a>
+    </div>
+</div>
+<!--
+             box 16
+  -->
+
+<div id="box16">
+    <div class="paraclass">
+        <p>Great prices on shoes</p>
+    </div>
+    <div class="innerclass ">
+        <div><a href="#"><img src="girlsshos.jpg" class="bigimg"></a>
+
+        </div>
+    </div>
+    <div id="link" class="link">
+        <a href="">see more </a>
+    </div>
+</div>
+<!--
+             box 17
+  -->
+
+
+<div id="box17">
+    <div class="paraclass">
+        <p>Personal Care Under $25</p>
+    </div>
+    <div class="innerclass ">
+        <div><a href="#"><img src="brush.jpg" class="bigimg"></a>
+
+        </div>
+    </div>
+    <div id="link" class="link">
+        <a href="">see more </a>
+    </div>
+</div>
+<!--
+             box 18
+  -->
+
+<div id="box18">
+    <div class="paraclass">
+        <p>Player's Paradise Start Here</p>
+    </div>
+    <div class="innerclass ">
+        <div><a href="#"><img src="vidoegmae.jpg"  class="bigimg"></a>
+
+        </div>
+    </div>
+    <div id="link" class="link">
+        <a href="">see more </a>
+    </div>
+</div>
+
+<div id="bodybox4">
+    <!-- 
+    
+
+    box19
+    -->
+
+            <div id="box19">
+                <p class="classouterpara">Best Sellers In Clothing, Shoes & Jwelleries</p>
+                <div id="inbox14">
+                    <a href=""> <img src="good energy.jpg"  class="classbooks" alt="" ></a>
+                    <a href=""> <img src="it start.jpg" class="classbooks" alt=""></a>
+                    <a href=""> <img src="hannah.jpg" class="classbooks" alt=""></a>
+                    <a href=""> <img src="atomic.jpg" class="classbooks" alt=""></a>
+                    <a href=""> <img src="mom.jpg" class="classbooks" alt=""></a>
+                    <a href=""> <img src="thehouse mad.jpg" class="classbooks" alt=""></a>
+                    <a href=""> <img src="bill.jpg" class="classbooks" alt=""></a>
+                    <a href=""> <img src="donot believe e.jpg" class="classbooks" alt=""></a>
+                
+                </div>
+            </div>
+
+            <div id="box20">
+                <div class="paraclass">
+                    <p>Ninja ZX10r</p>
+                </div>
+                <div class="innerclass ">
+                    <div><a href="#"><img  src="bike.jpg" id="ninja" class="bigimg"></a>
+            
+                    </div>
+                </div>
+                <div id="link" class="link">
+                    <a href="">see more </a>
+                </div>
+            </div>
+
+<!-- 
+            box21 -->
+            <div id="box21">
+                <div class="paraclass">
+                    <p>Under $12|Combo packs</p>
+                </div>
+                <div class="innerclass ">
+                    <div><a href="#"><img src="combo.jpg" class="bigimg"></a>
+            
+                    </div>
+                </div>
+                <div id="link" class="link">
+                    <a href="">see more </a>
+                </div>
+            </div>
+
+        <!-- box 22 -->
+        <div id="box22">
+            <div class="paraclass">
+                <p>Indoor Plants</p>
+            </div>
+            <div class="innerclass ">
+                <div><a href="#"><img src="indoorplant.jpg" class="bigimg"></a>
+        
+                </div>
+            </div>
+            <div id="link" class="link">
+                <a href="">see more </a>
+            </div>
+        </div>
+      <!-- box 23 -->
+               <div id="box23">
+                <div class="paraclass">
+                    <p>Best Seller of women clothes Over all Pakistan</p>
+                </div>
+                <div class="innerclass ">
+                    <div><a href="#"><img src="basit.jpg" id="basit" class="bigimg"></a>
+            
+                    </div>
+                </div>
+                <div id="link" class="link">
+                    <a href="">see more </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="bodybox5">
+            <div id="boxvinnerdiv">
+            <div><p>See personalized recommendations</p>
+                <p><button id="setting">Sign in </button></p>
+                <p>New customer?<a href="" style="text-decoration: none; ">Start here.</a> </p></div>
+            </div>
+        </div>
+        <div id="bodybox6">
+           <p id=""><a href=""> Back to Top</a></p>
+        </div>
+        <footer> 
+            <div id="bodybox7">
+                <p style="padding: 5px;">Conditions of Use & Sale Privacy Notice </p>
+                <p>  &#169;1996-2024, Amazon.com, Inc. or its affiliates</p>
+            </div>   
+        </footer>
+
+
+
+
+   
+</body>
